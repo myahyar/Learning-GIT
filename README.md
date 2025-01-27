@@ -12,3 +12,4 @@
   1. git remote origin 
   1. git add .
   1. git commit -m "update"
+  2. git push -u origin master
