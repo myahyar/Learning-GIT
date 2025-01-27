@@ -8,7 +8,7 @@
   2. git merge origin/master (membuat perubahan)
 
 # tutorial
-  1. git commit -m "update"
+  1. git clone 
   1. git remote origin 
-  2. git clone 
-  2. git add .
+  1. git add .
+  1. git commit -m "update"
