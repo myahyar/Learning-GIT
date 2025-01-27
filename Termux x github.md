@@ -129,5 +129,4 @@ Push ke repository GitHub:
 git push
 
 
-Dengan langkah-langkah ini, Anda sudah bisa meremote GitHub ke Termux.
-
+siapp sekarang anda bisa remote akun dengan ssh dan tidak ada lagi suruh masukan password 
