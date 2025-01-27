@@ -6,4 +6,4 @@
 # update github to git
   1. git fetch   (mengambil data dari github)
   2. git merge origin/master (membuat perubahan)
-#####
+# jangan percaya
