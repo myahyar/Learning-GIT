@@ -13,3 +13,5 @@
   1. acodex-server
   2. termux-setup-storage
   3. 
+# how to make ssh for git
+  1. 
