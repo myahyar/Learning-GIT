@@ -13,3 +13,10 @@
   1. git add .
   1. git commit -m "update"
   2. git push -u origin master
+
+# menambahkan branch
+  1. git branch nama_branch
+  2. git checkout nama_branch
+  3. atau
+  4. git checkout -b nama_branch
+     
