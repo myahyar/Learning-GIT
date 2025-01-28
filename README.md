@@ -1,3 +1,21 @@
+# MATERI BELAJAR TENTANG GIT
+## pertama kali kita harus setting ditermux
+1. konfigurasi GIT
+   - [konfigurasi nama dan email](materi-belajar-git/konfigurasi-nama-&-email.md)
+   - [how to use git remote](materi-belajar-git/how-to-use-git-remote.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
 # project pertama kali
   1. git status  menampilkan status 
   2. git log     menampilkan status commite
