@@ -1,6 +1,6 @@
 # cara remote with ssh git di termux
 
-Langkah 1: Install Git di Termux
+## Langkah 1: Install Git di Termux
 
 1. Buka Termux di HP Anda.
 
@@ -15,11 +15,11 @@ Langkah 1: Install Git di Termux
 
 ---
 
-Langkah 2: Konfigurasi Git
+## Langkah 2: Konfigurasi Git
 
 1. Set nama pengguna:
 
-git config --global user.name "NamaPengguna"
+` git config --global user.name "NamaPengguna" `
 
 Ganti NamaPengguna dengan nama Anda (sebaiknya sama dengan username GitHub Anda).
 
@@ -40,7 +40,7 @@ git config --list
 
 ---
 
-Langkah 3: Buat Kunci SSH untuk Autentikasi
+## Langkah 3: Buat Kunci SSH untuk Autentikasi
 
 1. Buat kunci SSH:
 
@@ -73,7 +73,7 @@ Beri nama di bagian Title, lalu klik Add SSH key.
 
 ---
 
-Langkah 4: Clone Repository GitHub ke Termux
+## Langkah 4: Clone Repository GitHub ke Termux
 
 1. Uji koneksi SSH ke GitHub:
 
@@ -85,14 +85,14 @@ Hi username! You've successfully authenticated.
 
 2. Clone repository GitHub:
 
-git clone git@github.com:username/repo.git
+`git clone git@github.com:username/repo.git`
 
 Ganti username dengan username GitHub Anda dan repo dengan nama repository.
 
 
 3. Pindah ke folder repository:
 
-cd repo
+`cd repo`
 
 
 4. Anda sekarang bisa bekerja dengan repository tersebut, misalnya menambahkan file, commit, dan push perubahan.
@@ -102,17 +102,17 @@ cd repo
 
 ---
 
-Langkah 5: Workflow Git
+## Langkah 5: Workflow Git
 
 Beberapa perintah Git yang sering digunakan:
 
 Menambah file baru ke Git:
 
-git add nama_file
+`git add nama_file`
 
 Commit perubahan:
 
-git commit -m "Pesan commit"
+`git commit -m "Pesan commit"`
 
 Push ke repository GitHub:
 
