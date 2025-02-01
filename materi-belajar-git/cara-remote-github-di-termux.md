@@ -119,7 +119,7 @@ git commit -m "Pesan commit"
 ```
 Push ke repository GitHub:
 ```
-git push -u 
+git push origin main
 ```
 
 Dengan langkah-langkah ini, Anda sudah bisa meremote GitHub ke Termux.
