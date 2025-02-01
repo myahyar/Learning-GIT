@@ -98,7 +98,7 @@ Ganti username dengan username GitHub Anda dan repo dengan nama repository.
 4. Anda sekarang bisa bekerja dengan repository tersebut, misalnya menambahkan file, commit, dan push perubahan.
 
 
-
+---
 
 ---
 
