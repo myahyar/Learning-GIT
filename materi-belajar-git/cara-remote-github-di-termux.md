@@ -18,8 +18,9 @@
 ## Langkah 2: Konfigurasi Git
 
 1. Set nama pengguna:
-
-` git config --global user.name "NamaPengguna" `
+```
+ git config --global user.name "NamaPengguna"
+```
 
 Ganti NamaPengguna dengan nama Anda (sebaiknya sama dengan username GitHub Anda).
 
