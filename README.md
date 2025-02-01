@@ -1,12 +1,9 @@
 # MATERI BELAJAR TENTANG GIT
 ## Below is a tutorial for learning GIT
-   1. [konfigurasi nama dan email](materi-belajar-git/konfigurasi-nama-&-email.md)
+```
    1. [cara remote git with ssh](materi-belajar-git/cara-remote-github-di-termux.md)
   
 ---
-
-
-
 
 
 
