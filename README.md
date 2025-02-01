@@ -2,6 +2,7 @@
 ## Below is a tutorial for learning GIT
 
    1. [cara remote git with ssh](materi-belajar-git/cara-remote-github-di-termux.md)
+   2. [how to make a repository git in termux ](materi-belajar-git/HowToMakeRepositoryGitInTermux)
   
 ---
 
