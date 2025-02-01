@@ -6,10 +6,10 @@
 
 
 2. Jalankan perintah untuk meng-update dan meng-install Git:
-
-`pkg update && pkg upgrade`
-`pkg install git`
-
+```
+pkg update && pkg upgrade
+pkg install git
+```
 
 
 
@@ -45,9 +45,9 @@ Ganti EmailAnda dengan email yang Anda gunakan untuk GitHub.
 ## Langkah 3: Buat Kunci SSH untuk Autentikasi
 
 1. Buat kunci SSH:
-
-` ssh-keygen -t ed25519 -C "EmailAnda" `
-
+```
+ ssh-keygen -t ed25519 -C "EmailAnda" 
+```
 Saat diminta lokasi file, tekan Enter untuk menggunakan lokasi default.
 
 Jika diminta passphrase, Anda bisa mengosongkannya (atau memasukkan password untuk keamanan tambahan).
@@ -55,9 +55,9 @@ Jika diminta passphrase, Anda bisa mengosongkannya (atau memasukkan password unt
 
 
 2. Tampilkan kunci SSH publik:
-
-`cat ~/.ssh/id_ed25519.pub`
-
+```
+cat ~/.ssh/id_ed25519.pub
+```
 Salin seluruh isi outputnya.
 
 
@@ -78,25 +78,25 @@ Beri nama di bagian Title, lalu klik Add SSH key.
 ## Langkah 4: Clone Repository GitHub ke Termux
 
 1. Uji koneksi SSH ke GitHub:
-
-`ssh -T git@github.com`
-
+```
+ssh -T git@github.com
+```
 Jika berhasil, Anda akan melihat pesan seperti:
 Hi username! You've successfully authenticated.
 
 
 2. Clone repository GitHub:
-
-`git clone git@github.com:username/repo.git`
-
+```
+git clone git@github.com:username/repo.git
+```
 Ganti username dengan username GitHub Anda dan repo dengan nama repository.
 
 
 3. Pindah ke folder repository:
+```
+cd repo
 
-`cd repo`
-
-
+```
 4. Anda sekarang bisa bekerja dengan repository tersebut, misalnya menambahkan file, commit, dan push perubahan.
 
 
@@ -109,17 +109,18 @@ Ganti username dengan username GitHub Anda dan repo dengan nama repository.
 Beberapa perintah Git yang sering digunakan:
 
 Menambah file baru ke Git:
-
-`git add nama_file`
+```
+git add nama_file
+```
 
 Commit perubahan:
-
-`git commit -m "Pesan commit"`
-
+```
+git commit -m "Pesan commit"
+```
 Push ke repository GitHub:
-
-git push
-
+```
+git push -u 
+```
 
 Dengan langkah-langkah ini, Anda sudah bisa meremote GitHub ke Termux.
 
