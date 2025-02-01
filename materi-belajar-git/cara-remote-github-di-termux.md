@@ -44,7 +44,7 @@ Ganti EmailAnda dengan email yang Anda gunakan untuk GitHub.
 
 1. Buat kunci SSH:
 
-ssh-keygen -t ed25519 -C "EmailAnda"
+` ssh-keygen -t ed25519 -C "EmailAnda" `
 
 Saat diminta lokasi file, tekan Enter untuk menggunakan lokasi default.
 
@@ -54,7 +54,7 @@ Jika diminta passphrase, Anda bisa mengosongkannya (atau memasukkan password unt
 
 2. Tampilkan kunci SSH publik:
 
-cat ~/.ssh/id_ed25519.pub
+`cat ~/.ssh/id_ed25519.pub`
 
 Salin seluruh isi outputnya.
 
@@ -77,7 +77,7 @@ Beri nama di bagian Title, lalu klik Add SSH key.
 
 1. Uji koneksi SSH ke GitHub:
 
-ssh -T git@github.com
+`ssh -T git@github.com`
 
 Jika berhasil, Anda akan melihat pesan seperti:
 Hi username! You've successfully authenticated.
