@@ -26,19 +26,19 @@ Ganti NamaPengguna dengan nama Anda (sebaiknya sama dengan username GitHub Anda)
 
 2. Set email:
 
-git config --global user.email "EmailAnda"
+`git config --global user.email "EmailAnda"`
 
 Ganti EmailAnda dengan email yang Anda gunakan untuk GitHub.
 
 
 3. Cek konfigurasi:
 
-git config --list
+`git config --list
 
 
 
 
----
+---`
 
 ## Langkah 3: Buat Kunci SSH untuk Autentikasi
 
