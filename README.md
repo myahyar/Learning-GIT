@@ -1,11 +1,10 @@
 # MATERI BELAJAR TENTANG GIT
-## pertama kali kita harus setting ditermux
-1. konfigurasi GIT
-   - [konfigurasi nama dan email](materi-belajar-git/konfigurasi-nama-&-email.md)
-   - [how to use git remote](materi-belajar-git/how-to-use-git-remote.md)
-
-
-
+## Below is a tutorial for learning GIT
+   1. [konfigurasi nama dan email](materi-belajar-git/konfigurasi-nama-&-email.md)
+   2. [how to use git remote](materi-belajar-git/how-to-use-git-remote.md)
+   3. [cara remote git with ssh](materi-belajar-git/cara-remote-github-di-termux.md)
+  
+---
 
 
 
