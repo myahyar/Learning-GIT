@@ -7,8 +7,8 @@ Langkah 1: Install Git di Termux
 
 2. Jalankan perintah untuk meng-update dan meng-install Git:
 
-pkg update && pkg upgrade
-pkg install git
+`pkg update && pkg upgrade`
+`pkg install git`
 
 
 
