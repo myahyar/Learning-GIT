@@ -33,7 +33,7 @@ Ganti EmailAnda dengan email yang Anda gunakan untuk GitHub.
 
 3. Cek konfigurasi:
 
-``` git config --list
+``` git config --list ```
 
 
 
