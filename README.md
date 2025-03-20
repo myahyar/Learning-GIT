@@ -21,7 +21,7 @@
   1. git fetch   (mengambil data dari github)
   2. git merge origin/master (membuat perubahan)
 
-# tutorial
+# tutorial cloning repository
   1. git clone 
   1. git remote origin 
   1. git add .
