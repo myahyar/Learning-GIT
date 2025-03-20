@@ -99,8 +99,10 @@ cd repo
 ```
 4. Anda sekarang bisa bekerja dengan repository tersebut, misalnya menambahkan file, commit, dan push perubahan.
 
+---
+`termux-setup-storage`
 
-
+untuk memberikan izin akses ke penyimpanan eksternal
 
 ---
 
